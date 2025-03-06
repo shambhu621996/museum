@@ -1,0 +1,133 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    padding: 5px;
+    display:flex;
+    gap:10px;
+    background-color:black;
+    border-radius:10px;
+    margin-top: 10px;
+}
+
+.img-1{
+    width: 631;
+    height: 730;
+    top: 224px;
+    left: 53px;
+    border-radius: 20px;
+    
+}
+
+.img-2{
+    width: 523;
+    height: 235;
+    top: 132px;
+    left: 1134px;
+    border-radius: 20px;
+    
+}
+
+.img-3{
+    width: 385;
+    height: 168;
+    top: 492px;
+    left: 736px;
+    border-radius: 20px;
+    
+}
+
+.img-4{
+    width: 113;
+    height: 113;
+    top: -390px;
+    left: 1576px;
+    border-radius: 30000px;
+    
+}
+
+.arrow {
+    display: flex;
+    gap:300px ;
+}
+.arrow-4{
+    display: flex;
+    width: 20.00000000000011;
+top: 1031px;
+left: 1649px;
+}
+h3{
+    text-decoration: underline;
+}
+.hover-button {
+    background-color: #B1A592;
+    width: 282;
+    height: 50;
+    top: 24px;
+    left: 26px;
+    border-radius: 50px;
+}    
+
+.hover-button:hover {
+    transform: scale(1.1);
+    background-color: #dbdfe4;
+}
+.image-1{
+display: flex;
+background-color: antiquewhite;
+gap: 10px;
+        Width:525px;
+        Height:597px;
+        Top:480px;
+        Left:1161px;
+        border-radius: 30px;
+}
+.image-2{
+    display: flex;
+    background-color: antiquewhite;
+    gap: 10px;
+    Width:967px;
+    Height:356px;
+    Top:99px;
+    Left:719px;
+    border-radius: 30px;
+    }
+    .image-3{
+        background-color: bisque;
+        Width:405px;
+        Height:597px;
+        Top:480px;
+        Left:729px;
+        border-radius: 30px;
+    }
+    .image-0{
+        background-color: blanchedalmond;
+        Width:667px;
+        Height:981px;
+        Top:99px;
+        Left:35px;
+        border-radius: 30px;
+    }
+    .image{
+        display:flex;
+        gap:10px;
+       flex-wrap: wrap;
+    }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 15px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        padding: 10px;
+    }
+}
